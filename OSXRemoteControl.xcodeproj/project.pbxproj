@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21DF8A331BC4B87600B9AD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF8A321BC4B87600B9AD48 /* AppDelegate.swift */; };
+		21DF8A351BC4B87600B9AD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF8A341BC4B87600B9AD48 /* ViewController.swift */; };
+		21DF8A371BC4B87600B9AD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DF8A361BC4B87600B9AD48 /* Assets.xcassets */; };
+		21DF8A3A1BC4B87600B9AD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DF8A381BC4B87600B9AD48 /* Main.storyboard */; };
+		21DF8A451BC4B87600B9AD48 /* OSXRemoteControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF8A441BC4B87600B9AD48 /* OSXRemoteControlTests.swift */; };
+		21DF8A501BC4B87600B9AD48 /* OSXRemoteControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF8A4F1BC4B87600B9AD48 /* OSXRemoteControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DF8A411BC4B87600B9AD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DF8A271BC4B87600B9AD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DF8A2E1BC4B87600B9AD48;
+			remoteInfo = OSXRemoteControl;
+		};
+		21DF8A4C1BC4B87600B9AD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DF8A271BC4B87600B9AD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DF8A2E1BC4B87600B9AD48;
+			remoteInfo = OSXRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21DF8A2F1BC4B87600B9AD48 /* OSXRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF8A321BC4B87600B9AD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21DF8A341BC4B87600B9AD48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21DF8A361BC4B87600B9AD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21DF8A391BC4B87600B9AD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21DF8A3B1BC4B87600B9AD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DF8A401BC4B87600B9AD48 /* OSXRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF8A441BC4B87600B9AD48 /* OSXRemoteControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSXRemoteControlTests.swift; sourceTree = "<group>"; };
+		21DF8A461BC4B87600B9AD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DF8A4B1BC4B87600B9AD48 /* OSXRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF8A4F1BC4B87600B9AD48 /* OSXRemoteControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSXRemoteControlUITests.swift; sourceTree = "<group>"; };
+		21DF8A511BC4B87600B9AD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DF8A2C1BC4B87600B9AD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A3D1BC4B87600B9AD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A481BC4B87600B9AD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DF8A261BC4B87600B9AD48 = {
+			isa = PBXGroup;
+			children = (
+				21DF8A311BC4B87600B9AD48 /* OSXRemoteControl */,
+				21DF8A431BC4B87600B9AD48 /* OSXRemoteControlTests */,
+				21DF8A4E1BC4B87600B9AD48 /* OSXRemoteControlUITests */,
+				21DF8A301BC4B87600B9AD48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21DF8A301BC4B87600B9AD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DF8A2F1BC4B87600B9AD48 /* OSXRemoteControl.app */,
+				21DF8A401BC4B87600B9AD48 /* OSXRemoteControlTests.xctest */,
+				21DF8A4B1BC4B87600B9AD48 /* OSXRemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DF8A311BC4B87600B9AD48 /* OSXRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				21DF8A321BC4B87600B9AD48 /* AppDelegate.swift */,
+				21DF8A341BC4B87600B9AD48 /* ViewController.swift */,
+				21DF8A361BC4B87600B9AD48 /* Assets.xcassets */,
+				21DF8A381BC4B87600B9AD48 /* Main.storyboard */,
+				21DF8A3B1BC4B87600B9AD48 /* Info.plist */,
+			);
+			path = OSXRemoteControl;
+			sourceTree = "<group>";
+		};
+		21DF8A431BC4B87600B9AD48 /* OSXRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				21DF8A441BC4B87600B9AD48 /* OSXRemoteControlTests.swift */,
+				21DF8A461BC4B87600B9AD48 /* Info.plist */,
+			);
+			path = OSXRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		21DF8A4E1BC4B87600B9AD48 /* OSXRemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21DF8A4F1BC4B87600B9AD48 /* OSXRemoteControlUITests.swift */,
+				21DF8A511BC4B87600B9AD48 /* Info.plist */,
+			);
+			path = OSXRemoteControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DF8A2E1BC4B87600B9AD48 /* OSXRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF8A541BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControl" */;
+			buildPhases = (
+				21DF8A2B1BC4B87600B9AD48 /* Sources */,
+				21DF8A2C1BC4B87600B9AD48 /* Frameworks */,
+				21DF8A2D1BC4B87600B9AD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXRemoteControl;
+			productName = OSXRemoteControl;
+			productReference = 21DF8A2F1BC4B87600B9AD48 /* OSXRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21DF8A3F1BC4B87600B9AD48 /* OSXRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF8A571BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControlTests" */;
+			buildPhases = (
+				21DF8A3C1BC4B87600B9AD48 /* Sources */,
+				21DF8A3D1BC4B87600B9AD48 /* Frameworks */,
+				21DF8A3E1BC4B87600B9AD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DF8A421BC4B87600B9AD48 /* PBXTargetDependency */,
+			);
+			name = OSXRemoteControlTests;
+			productName = OSXRemoteControlTests;
+			productReference = 21DF8A401BC4B87600B9AD48 /* OSXRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21DF8A4A1BC4B87600B9AD48 /* OSXRemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF8A5A1BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControlUITests" */;
+			buildPhases = (
+				21DF8A471BC4B87600B9AD48 /* Sources */,
+				21DF8A481BC4B87600B9AD48 /* Frameworks */,
+				21DF8A491BC4B87600B9AD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DF8A4D1BC4B87600B9AD48 /* PBXTargetDependency */,
+			);
+			name = OSXRemoteControlUITests;
+			productName = OSXRemoteControlUITests;
+			productReference = 21DF8A4B1BC4B87600B9AD48 /* OSXRemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DF8A271BC4B87600B9AD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "AJ Priola";
+				TargetAttributes = {
+					21DF8A2E1BC4B87600B9AD48 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					21DF8A3F1BC4B87600B9AD48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21DF8A2E1BC4B87600B9AD48;
+					};
+					21DF8A4A1BC4B87600B9AD48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21DF8A2E1BC4B87600B9AD48;
+					};
+				};
+			};
+			buildConfigurationList = 21DF8A2A1BC4B87600B9AD48 /* Build configuration list for PBXProject "OSXRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21DF8A261BC4B87600B9AD48;
+			productRefGroup = 21DF8A301BC4B87600B9AD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DF8A2E1BC4B87600B9AD48 /* OSXRemoteControl */,
+				21DF8A3F1BC4B87600B9AD48 /* OSXRemoteControlTests */,
+				21DF8A4A1BC4B87600B9AD48 /* OSXRemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DF8A2D1BC4B87600B9AD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF8A371BC4B87600B9AD48 /* Assets.xcassets in Resources */,
+				21DF8A3A1BC4B87600B9AD48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A3E1BC4B87600B9AD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A491BC4B87600B9AD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DF8A2B1BC4B87600B9AD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF8A351BC4B87600B9AD48 /* ViewController.swift in Sources */,
+				21DF8A331BC4B87600B9AD48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A3C1BC4B87600B9AD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF8A451BC4B87600B9AD48 /* OSXRemoteControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF8A471BC4B87600B9AD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF8A501BC4B87600B9AD48 /* OSXRemoteControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DF8A421BC4B87600B9AD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DF8A2E1BC4B87600B9AD48 /* OSXRemoteControl */;
+			targetProxy = 21DF8A411BC4B87600B9AD48 /* PBXContainerItemProxy */;
+		};
+		21DF8A4D1BC4B87600B9AD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DF8A2E1BC4B87600B9AD48 /* OSXRemoteControl */;
+			targetProxy = 21DF8A4C1BC4B87600B9AD48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21DF8A381BC4B87600B9AD48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DF8A391BC4B87600B9AD48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21DF8A521BC4B87600B9AD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21DF8A531BC4B87600B9AD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21DF8A551BC4B87600B9AD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21DF8A561BC4B87600B9AD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21DF8A581BC4B87600B9AD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXRemoteControl.app/Contents/MacOS/OSXRemoteControl";
+			};
+			name = Debug;
+		};
+		21DF8A591BC4B87600B9AD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXRemoteControl.app/Contents/MacOS/OSXRemoteControl";
+			};
+			name = Release;
+		};
+		21DF8A5B1BC4B87600B9AD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSXRemoteControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21DF8A5C1BC4B87600B9AD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apdev.OSXRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSXRemoteControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DF8A2A1BC4B87600B9AD48 /* Build configuration list for PBXProject "OSXRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF8A521BC4B87600B9AD48 /* Debug */,
+				21DF8A531BC4B87600B9AD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DF8A541BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF8A551BC4B87600B9AD48 /* Debug */,
+				21DF8A561BC4B87600B9AD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21DF8A571BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF8A581BC4B87600B9AD48 /* Debug */,
+				21DF8A591BC4B87600B9AD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21DF8A5A1BC4B87600B9AD48 /* Build configuration list for PBXNativeTarget "OSXRemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF8A5B1BC4B87600B9AD48 /* Debug */,
+				21DF8A5C1BC4B87600B9AD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21DF8A271BC4B87600B9AD48 /* Project object */;
+}
